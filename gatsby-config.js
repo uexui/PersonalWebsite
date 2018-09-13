@@ -2,9 +2,5 @@ module.exports = {
   siteMetadata: {
     title: '200 Drinks',
   },
-  plugins: ['gatsby-plugin-react-helmet'],
+  plugins: ['gatsby-plugin-react-helmet'],[`gatsby-plugin-styled-components`],
 }
-
-module.exports = {
-  plugins: [`gatsby-plugin-styled-components`],
-};
