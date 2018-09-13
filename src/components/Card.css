@@ -1,0 +1,45 @@
+.CardStack {
+    display: grid;
+    grid-template-rows: 2fr;
+    margin: 20px 0 40px 0;
+}
+
+.CardImg {
+    width: 280px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
+
+.Card img {
+position: absolute;
+top: 0;
+width: 100%;
+height: 100%;
+z-index: -1;
+transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.CardInfo {
+margin: 20px 0 0 4px;
+width: 280px;
+}
+
+.CardInfo h3 {
+    color: black;
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin: 0 0 0 0;
+   /* width: 190px; */
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.CardInfo p {
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: none;
+}

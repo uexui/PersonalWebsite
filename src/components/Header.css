@@ -1,0 +1,75 @@
+.Header{
+    position: fixed;
+    width: 100%;
+    padding: 20px 25px;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0);
+    height: 50px;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.0);
+}
+.HeaderScrolled {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px 25px;
+    backdrop-filter: blur(20px);
+}
+
+.HeaderGroup {
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 35px;
+    color: #1E1E1E;
+    max-width: 300px;
+    justify-content: left;
+}
+
+.HeaderNav {
+    margin-left:auto;
+    margin-right:50px;
+    margin-top: -30px;
+    max-width: 250px;
+    display: grid;
+    /* grid-template-columns: repeat(2, Auto);
+    align-items: center; */
+    justify-items: right;
+}
+
+.HeaderNav a {
+    color: #1E1E1E;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.FooterNav {
+margin: 30px 0 70px 0;
+text-align: center;
+display: grid;
+grid-template-columns: repeat(1);
+line-height: 1.5;
+font-size: 12px;
+font-weight: 400;
+color: black;
+text-transform: uppercase;
+letter-spacing: 3px;
+}
+
+
+@media (max-width: 640px) {
+    .Header {
+        padding: 15px;
+        height: 40px
+    }
+
+    .HeaderGroup {
+        font-size: 30px;
+    }
+
+    .HeaderNav {
+        margin-left:auto;
+        margin-right:30px;
+        margin-top: -23px;
+        max-width: 200px;
+    }
+}
+
+
