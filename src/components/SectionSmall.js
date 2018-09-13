@@ -1,14 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const SectionGroup = styled.div`
+const SectionSmallGroup = styled.div`
 text-align: center;
 
 @media (max-width: 720px) {
 }
 `
 
-const SectionTitleGroup = styled.div`
+const SectionSmallTitleGroup = styled.div`
 background: #08FED2;
 padding: 45px 0 60px 0;
 
@@ -17,7 +17,7 @@ padding: 45px 0 60px 0;
   }
 `
 
-const SectionTitle = styled.h1`
+const SectionSmallTitle = styled.h1`
 font-size: 36px;
 color: black;
 
@@ -28,7 +28,7 @@ color: black;
   }
 `
 
-const SectionButton = styled.button`
+const SectionSmallButton = styled.button`
 font-size: 12px;
 font-weight: 400;
 color: black;
@@ -48,13 +48,13 @@ transition: 500ms cubic-bezier(0.2, 0.8, 0.2, 1);
     }
   `
 
-const Section = props => (
-    <SectionGroup>
-        <SectionTitleGroup>
-                <SectionTitle>{props.title}</SectionTitle>
-                <SectionButton>{props.button}</SectionButton>
-        </SectionTitleGroup>
-    </SectionGroup>
+const SectionSmall = props => (
+    <SectionSmallGroup>
+        <SectionSmallTitleGroup>
+                <SectionSmallTitle>{props.title}</SectionSmallTitle>
+                <SectionSmallButton>{props.button}</SectionSmallButton>
+        </SectionSmallTitleGroup>
+    </SectionSmallGroup>
 )
 
-export default Section
+export default SectionSmall

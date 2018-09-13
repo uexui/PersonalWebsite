@@ -55,7 +55,7 @@ const IndexPage = () => (
       button="Download The Free App"
       />
       <Footer
-      title="Designed by J.B. Chaykowsky"
+      title="Designed by J.B. Chaykowsky!"
       image={require('../images/jb_birthday.png')}
       />
       <div className="FooterNav">
