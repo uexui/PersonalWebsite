@@ -13,12 +13,14 @@ const IndexPage = () => (
         <Link to="http://itunes.apple.com/us/app/200-drinks/id1033405195?mt=8"><button>DOWNLOAD THE FREE APP</button></Link>
       </div>
     </div>
+    <div className="Section">
     <Section
       title="Free Drinks"
       subtitle="New drink recipes added every two weeks. For free."
       text="Other cocktail apps charge you to extend your recipe archive. We don't and never will. Period."
       button="Download"
     />
+    </div>
     <div className="CardTitle">
       <h1>v2.7</h1>
       <p>Features</p>
@@ -43,7 +45,7 @@ const IndexPage = () => (
       
       <div className="Card">
        <Card
-        title=""
+
         image={require('../images/filter.png')}
         title="SEARCH & FILTER"
         text="Find exactly what you are looking for with our powerful recipe search and filtering features. Search or filter by ingredient, name, type and more."
@@ -51,13 +53,10 @@ const IndexPage = () => (
       </div>
 
     </div>
-
-    <div className="SectionSmall">
       <SectionSmall
       title="Powerful new features coming this winter."
       button="Download The Free App"
       />
-    </div>
       <Footer
       title="Designed by J.B. Chaykowsky!"
       image={require('../images/jb_birthday.png')}
