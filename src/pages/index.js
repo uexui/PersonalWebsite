@@ -48,12 +48,16 @@ const IndexPage = () => (
         title="SEARCH & FILTER"
         text="Find exactly what you are looking for with our powerful recipe search and filtering features. Search or filter by ingredient, name, type and more."
         />
+      </div>
+
     </div>
-    </div>
+
+    <div className="SectionSmall">
       <SectionSmall
       title="Powerful new features coming this winter."
       button="Download The Free App"
       />
+    </div>
       <Footer
       title="Designed by J.B. Chaykowsky!"
       image={require('../images/jb_birthday.png')}
