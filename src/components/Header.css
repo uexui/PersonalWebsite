@@ -26,8 +26,8 @@
     margin-right:50px;
     margin-top: -30px;
     max-width: 250px;
-    display: grid;
-    /* grid-template-columns: repeat(2, Auto);
+ /*  display: grid;
+    grid-template-columns: repeat(2, Auto);
     align-items: center; */
     justify-items: right;
 }
