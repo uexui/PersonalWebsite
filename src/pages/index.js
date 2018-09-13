@@ -14,7 +14,7 @@ const IndexPage = () => (
       </div>
     </div>
 
-    <div className="Section">
+    <div className="SectionGroup">
       <Section
       title="Free Drinks"
       subtitle="New drink recipes added every two weeks. For free."
@@ -56,12 +56,11 @@ const IndexPage = () => (
       </div>
 
     </div>
-<div className="SectionSmall">
       <SectionSmall
       title="Powerful new features coming this winter?"
       button="Download The Free App"
       />
-</div>
+
       <Footer
       title="Designed by J.B. Chaykowsky!"
       image={require('../images/jb_birthday.png')}
