@@ -40,23 +40,6 @@
     letter-spacing: 3px;
 }
 
-.FooterNav {
-margin: 30px 0 70px 0;
-text-align: center;
-display: grid;
-grid-template-columns: repeat(1);
-line-height: 1.5;
-font-size: 12px;
-font-weight: 400;
-color: black;
-text-transform: uppercase;
-letter-spacing: 3px;
-}
-
-.SectionGroup {
-    margin: 30px 0 70px 0;
-}
-
 
 @media (max-width: 640px) {
     .Header {
