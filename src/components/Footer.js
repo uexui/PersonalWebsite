@@ -2,8 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import './Footer.css'
 
-
-
 const FooterGroup = styled.div`
 text-align: center;
 height: 320px;
