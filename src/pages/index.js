@@ -13,18 +13,21 @@ const IndexPage = () => (
         <Link to="http://itunes.apple.com/us/app/200-drinks/id1033405195?mt=8"><button>DOWNLOAD THE FREE APP</button></Link>
       </div>
     </div>
+
     <div className="Section">
-    <Section
+      <Section
       title="Free Drinks"
       subtitle="New drink recipes added every two weeks. For free."
       text="Other cocktail apps charge you to extend your recipe archive. We don't and never will. Period."
       button="Download"
-    />
+      />
     </div>
+
     <div className="CardTitle">
       <h1>v2.7</h1>
       <p>Features</p>
     </div>
+
     <div className="CardGroup">
 
       <div className="Card">
@@ -53,14 +56,17 @@ const IndexPage = () => (
       </div>
 
     </div>
+<div className="SectionSmall">
       <SectionSmall
-      title="Powerful new features coming this winter."
+      title="Powerful new features coming this winter?"
       button="Download The Free App"
       />
+</div>
       <Footer
       title="Designed by J.B. Chaykowsky!"
       image={require('../images/jb_birthday.png')}
       />
+
       <div className="FooterNav">
         <Link to="/appsupport">SUPPORT</Link>
         <Link to="/privacy">Privacy Policy</Link>
