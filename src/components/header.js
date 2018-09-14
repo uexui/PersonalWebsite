@@ -33,7 +33,6 @@ class Header extends React.Component {
           <Link to="/page-2">200 drinks</Link>
         </div>
           <div className="HeaderNav">
-            <Link to="/page-2">About</Link>
           </div>
       </div>
     )

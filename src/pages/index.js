@@ -10,7 +10,7 @@ const IndexPage = () => (
     <div className="Hero">
       <div className="HeroGroup">
         <p>We help you make delicious classic, modern and tiki cocktails right in your home.</p>
-        <a href="http://itunes.apple.com/us/app/200-drinks/id1033405195?mt=8"><button>DOWNLOAD THE FREE APP</button></a>
+        <a href="http://itunes.apple.com/us/app/200-drinks/id1033405195?mt=8"><button>DOWNLOAD 200 DRINKS FREE</button></a>
       </div>
     </div>
 
