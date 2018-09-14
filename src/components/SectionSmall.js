@@ -34,25 +34,25 @@ font-weight: 400;
 color: black;
 text-transform: uppercase;
 letter-spacing: 3px;
-background: #FFFFFF;
+background: white;
 padding: 20px 35px;
 border-radius: 40px;
 border: none;
 transition: 500ms cubic-bezier(0.2, 0.8, 0.2, 1);
 &:hover{
-    background: black
+  background: black
   color: white;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
   transform: translateY(-3px);
   cursor: pointer;
-    }
-  `
+  }
+`
 
 const SectionSmall = props => (
     <SectionSmallGroup>
         <SectionSmallTitleGroup>
                 <SectionSmallTitle>{props.title}</SectionSmallTitle>
-                <SectionSmallButton>{props.button}</SectionSmallButton>
+                <a href="http://itunes.apple.com/us/app/200-drinks/id1033405195?mt=8"><SectionSmallButton>{props.button}</SectionSmallButton></a>
         </SectionSmallTitleGroup>
     </SectionSmallGroup>
 )

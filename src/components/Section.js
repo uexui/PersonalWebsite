@@ -95,13 +95,13 @@ border-radius: 40px;
 border: none;
 transition: 500ms cubic-bezier(0.2, 0.8, 0.2, 1);
 &:hover{
-    background: white;
+  background: white;
   color: black;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
   transform: translateY(-3px);
   cursor: pointer;
-    }
-  `
+  }
+`
 
 const Section = props => (
     <SectionGroup>
@@ -111,7 +111,7 @@ const Section = props => (
                 <SectionTitle>{props.title}</SectionTitle>
                 <SectionSubTitle>{props.subtitle}</SectionSubTitle>
                 <SectionText>{props.text}</SectionText>
-                <SectionButton>{props.button}</SectionButton>
+                <a href="http://itunes.apple.com/us/app/200-drinks/id1033405195?mt=8"><SectionButton>{props.button}</SectionButton></a>
         </SectionTitleGroup>
     </SectionGroup>
 )
